@@ -47,8 +47,13 @@ const AddLocationForm = ({ addLocation }) => {
             onChange={handleNoiseLevelChange}
           />
         </label>
-        <button type="submit">Add</button>
+        <button type="submit" className='addbutton'>Add</button>
       </form>
+      <div class="ocean">
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+      </div>
     </div>
   );
 };
